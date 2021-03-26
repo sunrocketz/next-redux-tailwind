@@ -1,5 +1,44 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Notes
+
+- This template uses yarn classic.
+- Typescript files which should be included in production build must have ".b.ts" # or ".b.tsx" extension.
+- No vanilla ".js" file is allowed except for some packages' config files.
+- Redux devtools are disabled, by default, in production mode.
+
+## "src" folder structure
+
+```bash
+  src
+ |
+ +-- components
+ |
+ +-- database
+ |  |
+ |  +-- index.ts
+ |
+ +-- functions
+ |
+ +-- hooks
+ |
+ +-- redux
+ |  |
+ |  +-- slices
+ |  |
+ |  +-- store.ts
+ |  |
+ |  +-- reducer.ts
+ |
+ +-- styles
+ |  |
+ |  +-- module
+ |  |
+ |  +-- normalize.css
+ |
+ +-- typings
+```
+
 ## Getting Started
 
 First, run the development server:
